@@ -9,6 +9,9 @@ import './assets/style/reset.css'
 import './assets/style/element.styl'
 import './assets/font/iconfont.css'
 Vue.config.productionTip = false
+
+
+
 Vue.use(Element)
 new Vue({
   router,
