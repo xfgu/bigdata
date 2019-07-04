@@ -1,0 +1,55 @@
+@import "./common.styl"
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside
+  background-color: #D3DCE6
+  color: colorList.sub
+  font-size 14px
+
+  .el-menu
+    border-right: none !important
+
+    .is-opened
+      .el-submenu__title
+        background: colorList.primary !important
+        span,i
+          color: colorList.white !important
+
+    .el-menu-item
+      text-align center
+      height: 35px
+      line-height: 35px
+
+      &:hover
+        background: #eae9e9 !important
+
+      &.is-active
+        background: #eae9e9 !important
+        border-left: 4px solid colorList.primary
+
+.el-main {
+  background-color: colorList.white;
+  color: #333;
+  margin 30px
+  padding 10px
+  border: 1px solid rgba(226, 226, 226, 0.6)
+  //text-align: center;
+}
+
+.text-sub
+  margin-right: 6px
+  color: colorList.sub !important
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 180px;
+  min-height: 400px;
+
+}
+
+
+
